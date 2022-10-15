@@ -1,0 +1,8 @@
+# cook your dish here
+n=int(input())
+for i in range(n):
+	a=int(input())
+	p=list(map(int,input().split()))
+	a_train=sum(p)
+	b_additonal=max(p)
+	print(a_train+b_additonal)
