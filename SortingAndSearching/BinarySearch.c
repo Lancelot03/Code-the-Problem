@@ -31,7 +31,6 @@ int bSearch(int key,int a[],int size)
 		{ 
 		  front=mid+1;
 		}
-
 	}
 	printf("Element not found\n");
 }
