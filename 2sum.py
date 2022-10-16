@@ -12,3 +12,13 @@ if __name__ == '__main__':
 	target = int(input())
 	out = solve(n, nums, target)
 	print(*out)
+# second method 
+
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        old_num={}
+        for i in range(len(nums)):
+            if old_num.get(target - nums[i]) is not None:
+                return [old_num.get(target - nums[i]), i]
+            else:
+                old_num[nums[i]] = i
