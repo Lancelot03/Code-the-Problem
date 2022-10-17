@@ -153,4 +153,13 @@ At this point, you are ready to make a pull request to the original repository.
 
 Navigate to your forked repository, and press the “New pull request” button on your left-hand side of your Repo page.
 
-# Hurray! You just got closer to completing your Hacktoberfest challenge.
+# Hurray! You just got closer to completing your Hacktoberfest challenge. Thanks for contributing Guys 🤩🤩
+
+
+<div align="center">
+
+<a href="https://github.com/Lancelot03/Hacktoberfest-2022/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Lancelot03/Hacktoberfest-2022" />
+</a>
+  
+</div>
