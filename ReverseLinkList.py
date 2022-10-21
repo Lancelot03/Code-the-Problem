@@ -62,7 +62,7 @@ def takeInput() :
         data = datas[i]
         newNode = Node(data)
 
-        if head is None :
+        if head is None:
             head = newNode
             tail = newNode
 
