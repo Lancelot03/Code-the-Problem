@@ -31,41 +31,6 @@ def getMinAndMax(root,p) :
     getMinAndMax(root.left, p)
     getMinAndMax(root.right, p)
     return p
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
 #Taking level-order input using fast I/O method
 def takeInput():
     levelOrder = list(map(int, stdin.readline().strip().split(" ")))
